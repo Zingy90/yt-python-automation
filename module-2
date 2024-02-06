@@ -17,7 +17,7 @@ consolidated_records = []
 # Specify the file paths for the inventory files
 file_paths = [
     "/home/ec2-user/environment/python_programs/yellowtail_fcu.csv",
-    "/home/ec2-user/environment/python_programs/yellowtail_fcu.csv",
+    "/home/ec2-user/environment/python_programs/yellowtail_financial_services.csv",
     "/home/ec2-user/environment/python_programs/yellowtail_national_bank.csv"
 ]
 

@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+
+# Prompt the user to input their gender
+gender = input("Are you male or female? ").lower()
+
+# Check if the input is valid
+if gender not in ['male', 'female']:
+    print("Invalid input. Please enter 'male' or 'female'. Exiting...")
+    exit()
+
 # Ask the user for input
 age_years = int(input("Enter your age in years: "))
 

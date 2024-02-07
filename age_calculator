@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+# Ask the user for input
+age_years = int(input("Enter your age in years: "))
+
+# Calculate age in days
+age_days = age_years * 365
+
+# Calculate age in months
+age_months = age_years * 12
+
+# Calculate age in hours
+age_hours = age_days * 24
+
+# Print the results
+print("Your age in days:", age_days)
+print("Your age in months:", age_months)
+print("Your age in hours:", age_hours)
